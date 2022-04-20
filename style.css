@@ -413,7 +413,7 @@ body {
 
 
   .footer {
-    background: #000000;
+    background: #F8F8FF;
   }
   
   .footer-container {
@@ -429,15 +429,17 @@ body {
   .footer-texto {
     font-size: 1.5rem;
     line-height: 1.33;
-    color: #cccccc;
+    color: #000000;
+    position: relative;
+    top:-33px;
   }
   
   .footer-contato li {
     font-weight: bold;
     font-size: 2.25rem;
     line-height: 1.1;
-    color: #ffffff;
-    margin-bottom: 30px;
+    color: #000000;
+    margin-bottom: 10px;
   }
   
   .footer-contato li a {
@@ -447,7 +449,7 @@ body {
   .footer-copy {
     grid-column: 1 / -1;
     font-size: 1.125rem;
-    color: #8f8f8f;
+    color: #000000;
   }
   
   @media (max-width: 800px) {
@@ -461,4 +463,6 @@ body {
   }
   
   
+  
+
   
